@@ -1,0 +1,35 @@
+{
+  "name": "prisma",
+  "version": "1.0.0",
+  "description": "Flutter UI library based on Prisma Design System - with every component you need for an app.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "husky": "^3.1.0",
+    "standard-version": "^7.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prisma-design-system/prisma-flutter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prisma-design-system/prisma-flutter/issues"
+  },
+  "homepage": "https://github.com/prisma-design-system/prisma-flutter#readme"
+}
